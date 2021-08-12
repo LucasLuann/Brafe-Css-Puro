@@ -31,12 +31,22 @@ body {
 .menu-logo {
     display: block;
     float: left;
+    margin-left: 10px;
 }
 
 .menu-nav {
-    float: left;
+    float: right;
+    margin-right: 10px;
 }
 
 .menu-nav li {
     display: inline-block;
+}
+
+.menu-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
 }
